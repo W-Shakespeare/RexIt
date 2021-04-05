@@ -1,0 +1,69 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+html,
+body,
+h2,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+button {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.ant-slider {
+  --main-bg-color: red;
+  width: 621px;
+}
+
+.ant-slider-rail {
+  background-color: var(--main-bg-color) !important;
+}
+
+.ant-slider-track {
+  background-color: unset !important;
+}
+
+.ant-slider-handle {
+  margin-top: -18px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--main-bg-color) !important;
+}
+
+.soybean {
+  --main-bg-color: #00a651;
+  width: 621px;
+}
+.sesame {
+  --main-bg-color: #49743f;
+}
+.wheat {
+  --main-bg-color: #aba000;
+}
+.corn .ant-slider-handle {
+  transition: left 0.7s ease 0.5s;
+}
+.corn {
+  --main-bg-color: #989898;
+}
+
+@import "./components/Header/Header.css";
+@import "./components/Main/Main.css";
+@import "./components/Menu/Menu.css";
+@import "./components/Order/Order.css";
+@import "./components/Select/Select.css";
+@import "./components/Footer/Footer.css";
+@import "./media.css";

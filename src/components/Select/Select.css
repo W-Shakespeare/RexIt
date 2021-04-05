@@ -1,0 +1,67 @@
+.selectWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 560px;
+  height: 53px;
+}
+.selected {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Fredoka One", cursive;
+  font-size: 24px;
+  color: #ff4200;
+  border: solid 1px #ff4200;
+  border-radius: 30px;
+  width: 400px;
+  height: 61px;
+}
+.select__column {
+  margin-top: 9px;
+  display: none;
+  width: 400px;
+  height: 244px;
+  /* display: flex; */
+  flex-direction: column;
+  border-radius: 20px;
+}
+.select__uncover {
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 244px;
+  display: flex;
+  border-radius: 20px;
+  color: #ff4200;
+  border: solid 1px #ff4200;
+  background-color: white;
+}
+.select__item {
+  font-family: "Fredoka One", cursive;
+  font-size: 24px;
+  color: #ff4200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 244px;
+  height: 61px;
+  border-top: solid 1px #ff4200;
+  border-bottom: solid 1px #ff4200;
+  /* opacity: 0; */
+}
+.select__item:hover {
+  background-color: gainsboro;
+}
+.select__item:last-of-type {
+  border-bottom: unset;
+}
+.select .uncoverIcon {
+  position: absolute;
+  right: 35px;
+}
+.select .default {
+  color: gray;
+  border-top: unset;
+}

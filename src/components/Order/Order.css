@@ -1,0 +1,275 @@
+.containerOrder {
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #333333;
+}
+.containerOrder .row {
+  width: 944px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.orderInfo {
+  margin-right: 34px;
+  width: 369px;
+  height: 36px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-right: 521px; */
+}
+.orderInfo__total {
+  width: 119px;
+  /* height: 13px; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.quantity {
+  /* display: none; */
+  position: absolute;
+  top: 7px;
+  margin-left: 17px;
+  border-radius: 18px;
+  background: #ff4200;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 20px;
+  height: 21px;
+  font-family: "Lato", sans-serif;
+}
+
+.quantityMoney {
+  font-size: 17px !important;
+}
+.orderInfo__details {
+  width: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 142px;
+  height: 69px;
+  flex-direction: column;
+  margin-top: 11px;
+}
+.logo__textPart1 {
+  z-index: 2;
+  color: #f7f7f7;
+  height: 62px;
+  font-size: 60px;
+  font-family: "Kristi", cursive;
+}
+.logo__textPart2 {
+  z-index: 2;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  color: #f7f7f7;
+  justify-content: flex-end;
+}
+.containerOrder .text {
+  font-size: 14px;
+  color: #ffffff;
+}
+.shoppingCart {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 341px;
+  margin-right: -32px;
+  position: absolute;
+  z-index: 3;
+  width: 780px;
+  height: 279px;
+  background-color: #f4f4f4;
+  /* background-color: red; */
+}
+.shoppingCart_close {
+  opacity: 1;
+  top: -100vh !important;
+  transition: top 1s cubic-bezier(0.65, 0.05, 0.36, 1);
+  /* opacity 1s cubic-bezier(0.65, 0.05, 0.36, 1) 0.5s; */
+}
+.shoppingCart_open {
+  height: 10px;
+  opacity: 1;
+  top: 0;
+  transition: top 1s cubic-bezier(0.65, 0.05, 0.36, 1);
+  /* opacity 1s cubic-bezier(0.65, 0.05, 0.36, 1) 0.5s; */
+  /* transition: opacity 1.2s ease, top  */
+}
+.shoppingCart .wrapperHeaderAndComposition {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+.shoppingCart__header {
+  margin-right: 26px;
+  height: 44px;
+  align-items: flex-start;
+  width: 619px;
+  justify-content: space-between;
+  display: flex;
+}
+.closeIcon svg {
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.closeIcon svg:hover {
+  transform: rotateZ(-60deg);
+  transition: all 0.3s ease;
+}
+
+.compositionIcons {
+  width: 270px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.closeIcon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 31px;
+  height: 38px;
+}
+
+.ingredients__icon {
+  /* margin: 0px 14px; */
+}
+
+.crackerItem {
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 18px;
+}
+.crackerItem_deleting {
+  height: 0px;
+  margin: 0px;
+  opacity: 0;
+  transition: opacity 0.8s ease, all 1.2s ease;
+}
+.shoppingCart__row {
+  display: flex;
+  margin-left: 98px;
+}
+.shoppingCart .column {
+  width: 100%;
+  height: 133px;
+  justify-content: unset;
+  overflow: auto;
+}
+.crackerItemInfo {
+  width: 448px;
+  /* width: 604px; */
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  border-bottom: solid 1px rgb(189, 189, 189);
+}
+.crackerItemInfo .wrapper {
+  width: 216px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.crackerItemInfo__composition {
+  display: flex;
+  width: 33px;
+  justify-content: center;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 66, 0);
+}
+
+.deleteIcon {
+  width: 125px;
+  display: flex;
+  align-items: center;
+}
+
+.shoppingCart__button button {
+  width: 140px;
+  height: 42px;
+  border-radius: 25px;
+  background-color: #ff4200;
+}
+.shoppingCart__button button:hover {
+  border: solid 1px #ff4200;
+  background-color: #f4f4f4;
+  color: #ff4200;
+  transition: all 0.5s ease;
+}
+.shoppingCart .text {
+  color: #333333;
+}
+
+.crackerItemInfo__pack {
+  display: flex;
+  width: 68px;
+  height: 33px;
+  justify-content: center;
+  font-size: 19.355px;
+  font-family: "Lato", sans-serif;
+  color: rgb(51, 51, 51);
+}
+.crackerItemInfo__price {
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 19.355px;
+  font-family: "Lato", sans-serif;
+  color: rgb(51, 51, 51);
+}
+.shoppingCart__footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.shoppingCart__footer .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 392px;
+}
+
+.shoppingCart__total {
+  display: flex;
+  width: 172px;
+}
+.shoppingCart__total .text {
+  height: 35px;
+  display: flex;
+  font-size: 18px;
+  align-items: flex-end;
+}
+.shoppingCart__total .quantityMoney {
+  font-size: 24px !important;
+  width: 73px;
+  display: flex;
+  justify-content: center;
+}
+.shoppingCart__button button {
+  font-size: 18px;
+  font-family: "Avenir";
+  color: rgb(255, 255, 255);
+  line-height: 2.067;
+  text-align: center;
+  letter-spacing: 0.3px;
+}

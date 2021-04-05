@@ -1,0 +1,41 @@
+/* html,
+body,
+h2,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.ant-slider {
+  --main-bg-color: red;
+  width: 621px;
+}
+
+.ant-slider-rail {
+  background-color: var(--main-bg-color) !important;
+}
+
+.ant-slider-track {
+  background-color: unset !important;
+}
+
+.ant-slider-handle {
+  margin-top: -18px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--main-bg-color) !important;
+}
+
+.soybean {
+  --main-bg-color: #00a651;
+  width: 621px;
+}
+.sesame {
+  --main-bg-color: #49743f;
+}
+.wheat {
+  --main-bg-color: #aba000;
+}
+.corn {
+  --main-bg-color: #989898;
+} */
